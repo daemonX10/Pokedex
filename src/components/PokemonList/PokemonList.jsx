@@ -15,7 +15,7 @@ const PokemonList = () => {
                 setPokemonListState( (state)=>({...state,
                     POKEDEX_URL : state.prevUrl
                 }))
-            }}>Prev</button>
+            }} id='previous-button'>Prev</button>
 
             <h2> Pokemon List </h2>
 
@@ -25,7 +25,7 @@ const PokemonList = () => {
                 setPokemonListState((state)=>({...state,
                     POKEDEX_URL : state.nextUrl
                 }))
-            }}>Next</button>
+            }} id='next-button'>Next</button>
 
         </div>
 
